@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Casa Verde Taqueria &amp; Cantina — Tex-Mex Restaurant | College Station, TX</title>
+<meta name="description" content="Casa Verde Taqueria & Cantina — a Tex-Mex restaurant in College Station, TX. Tacos, fajitas, burritos, margaritas, happy hour and gift cards.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; color: #3a2c1c; line-height: 1.6; background: #faf3e7; }
+  .demo-note { background: #000; color: #bbb; text-align: center; padding: 8px 16px; font-size: 14px; font-family: Arial, sans-serif; border-bottom: 2px solid #c1440e; }
+  .demo-note a { color: #f2a541; }
+  .promo-bar { background: #c1440e; color: #fff; text-align: center; padding: 11px 16px; font-family: Arial, sans-serif; font-weight: bold; font-size: 1.05em; letter-spacing: 0.5px; }
+  .promo-bar span { color: #ffe9a8; }
+  header { background: radial-gradient(ellipse at center, #2c6b3f 0%, #17402a 80%); padding: 46px 16px 34px; text-align: center; border-bottom: 5px solid #f2a541; }
+  header .tag { display: inline-block; border: 2px solid #f2a541; color: #f2a541; font-weight: bold; letter-spacing: 3px; padding: 4px 14px; font-size: 13px; font-family: Arial, sans-serif; text-transform: uppercase; margin-bottom: 14px; }
+  header h1 { font-size: 3em; letter-spacing: 2px; text-transform: uppercase; line-height: 1.05; color: #fff; }
+  header h1 span { color: #f2a541; }
+  header p { color: #d9e8d0; margin-top: 10px; font-size: 1.2em; font-style: italic; }
+  .hero-img { width: 100%; height: 420px; object-fit: cover; display: block; }
+  nav { background: #17402a; text-align: center; padding: 13px; }
+  nav a { color: #f2a541; text-decoration: none; margin: 0 14px; font-size: 15px; font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: 2px; }
+  nav a:hover { color: #fff; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 32px 16px; }
+  h2 { font-size: 1.9em; letter-spacing: 1px; text-transform: uppercase; color: #205c33; margin: 38px 0 14px; }
+  h2::after { content: ""; display: block; height: 3px; background: #c1440e; width: 64px; margin-top: 6px; }
+  .special { background: #fff7e6; border: 2px solid #f2a541; border-radius: 8px; padding: 20px 24px; margin-top: 8px; }
+  .special h3 { color: #c1440e; text-transform: uppercase; letter-spacing: 2px; font-size: 1.05em; font-family: Arial, sans-serif; }
+  .special p { margin-top: 6px; }
+  .special .price { font-weight: bold; color: #205c33; }
+  .menu-list { background: #fff; border: 1px solid #e8dcc3; border-radius: 8px; padding: 8px 22px 14px; box-shadow: 0 2px 8px rgba(58,44,28,0.08); }
+  .menu-item { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px dotted #d8c9a8; }
+  .menu-item:last-child { border-bottom: none; }
+  .menu-item .price { font-size: 1.25em; font-weight: bold; color: #c1440e; white-space: nowrap; }
+  .menu-item small { display: block; color: #7a6a52; font-family: Arial, sans-serif; font-size: 0.9em; }
+  .menu-item .name { font-size: 1.15em; font-weight: bold; }
+  .menu-item .tag2 { display: inline-block; background: #c1440e; color: #fff; font-size: 11px; font-family: Arial, sans-serif; font-weight: bold; padding: 1px 7px; border-radius: 3px; margin-left: 6px; vertical-align: middle; letter-spacing: 1px; }
+  .menu-cat { color: #205c33; margin: 20px 0 4px; letter-spacing: 2px; text-transform: uppercase; font-size: 1em; font-family: Arial, sans-serif; font-weight: bold; }
+  .dishes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 26px 0 8px; }
+  .dishes figure { margin: 0; }
+  .dishes img { width: 100%; height: 220px; object-fit: cover; display: block; border-radius: 8px; }
+  .dishes figcaption { color: #7a6a52; font-family: Arial, sans-serif; font-size: 0.92em; margin-top: 8px; }
+  .wide-img { width: 100%; height: 300px; object-fit: cover; display: block; border-radius: 8px; margin: 18px 0 8px; }
+  .happy { background: #205c33; color: #f5efe4; border-radius: 8px; padding: 22px 24px; margin-top: 8px; }
+  .happy h3 { color: #f2a541; text-transform: uppercase; letter-spacing: 2px; font-size: 1.05em; font-family: Arial, sans-serif; }
+  .happy p { margin-top: 6px; }
+  .happy .deal { font-weight: bold; color: #ffe9a8; }
+  .gift { background: #fff7e6; border: 2px dashed #c1440e; border-radius: 8px; padding: 20px 24px; margin-top: 8px; text-align: center; }
+  .gift h3 { color: #c1440e; text-transform: uppercase; letter-spacing: 2px; font-size: 1.05em; font-family: Arial, sans-serif; }
+  .gift p { margin-top: 6px; }
+  .btn { display: inline-block; background: #c1440e; color: #fff; text-decoration: none; font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 1px; padding: 12px 26px; border-radius: 6px; margin-top: 14px; }
+  .btn:hover { background: #a8380b; }
+  .btn-green { background: #205c33; }
+  .btn-green:hover { background: #17402a; }
+  .cols { display: flex; gap: 24px; flex-wrap: wrap; margin-top: 8px; }
+  .cols > div { flex: 1; min-width: 240px; }
+  .cols a { color: #c1440e; }
+  table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 1.05em; }
+  th { text-align: left; color: #205c33; text-transform: uppercase; letter-spacing: 1px; font-size: 0.85em; font-family: Arial, sans-serif; padding: 8px 10px; border-bottom: 2px solid #c1440e; }
+  td { padding: 9px 10px; border-bottom: 1px solid #e8dcc3; }
+  .map-box { background: #e9f2e4; border: 1px solid #bcd3ae; border-radius: 8px; padding: 22px; text-align: center; margin-top: 14px; font-family: Arial, sans-serif; }
+  .map-box strong { color: #205c33; font-size: 1.1em; }
+  footer { background: #17402a; color: #b9d4bd; text-align: center; padding: 24px 16px; font-size: 14px; font-family: Arial, sans-serif; border-top: 5px solid #f2a541; margin-top: 38px; }
+  footer a { color: #f2a541; }
+  @media (max-width: 600px) { header h1 { font-size: 2em; } nav a { margin: 0 7px; font-size: 12px; } .hero-img { height: 260px; } .wide-img { height: 200px; } .dishes { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="demo-note">This is a demo website — an example of what your business site could look like. <a href="../index.html">&larr; Back to Firt&rsquo;s portfolio</a></div>
+<div class="promo-bar">TACO TUESDAY — <span>$2 street tacos, all day every Tuesday</span> &middot; Happy Hour 3–6 PM weekdays</div>
+<header>
+  <span class="tag">Taqueria &amp; Cantina &middot; College Station, TX</span>
+  <h1>Casa <span>Verde</span><br>Taqueria &amp; Cantina</h1>
+  <p>Real Tex-Mex, made from scratch every morning.</p>
+</header>
+<img class="hero-img" src="assets/restaurant-hero.jpg" alt="Casa Verde table full of tacos, guacamole and margaritas">
+<nav>
+  <a href="#menu">Menu</a>
+  <a href="#happy-hour">Happy Hour</a>
+  <a href="#gift-cards">Gift Cards</a>
+  <a href="#reservations">Reservations</a>
+  <a href="#visit">Visit Us</a>
+</nav>
+<main class="wrap">
+
+  <h2>Seasonal favorites</h2>
+  <div class="special">
+    <h3>New this season — Chile Relleno Verde</h3>
+    <p>Roasted poblano stuffed with Oaxaca cheese and chicken tinga, smothered in our house salsa verde, served with Mexican rice and refried beans. Available for a limited time.</p>
+    <p><span class="price">$14.95</span> &middot; Dine-in only</p>
+  </div>
+
+  <h2 id="menu">Our menu</h2>
+  <div class="menu-list">
+    <p class="menu-cat">Tacos — $4.50 each, served on corn tortillas</p>
+    <div class="menu-item"><div><span class="name">Tacos al Pastor</span><span class="tag2">MOST LOVED</span><small>Marinated pork, pineapple, onion, cilantro</small></div><span class="price">$4.50</span></div>
+    <div class="menu-item"><div><span class="name">Baja Fish Tacos</span><small>Crispy cod, chipotle crema, cabbage slaw</small></div><span class="price">$5.00</span></div>
+    <div class="menu-item"><div><span class="name">Carnitas Tacos</span><small>Slow-braised pork, salsa verde, pickled onion</small></div><span class="price">$4.50</span></div>
+    <div class="menu-item"><div><span class="name">Veggie Tacos</span><small>Roasted peppers, mushrooms, black beans, avocado</small></div><span class="price">$4.00</span></div>
+    <p class="menu-cat">Burritos &amp; plates</p>
+    <div class="menu-item"><div><span class="name">California Burrito</span><small>Carne asada, fries, cheese, guacamole, pico de gallo</small></div><span class="price">$12.95</span></div>
+    <div class="menu-item"><div><span class="name">Chicken Fajitas (for two)</span><small>Sizzling chicken, peppers and onions, tortillas, rice &amp; beans</small></div><span class="price">$24.95</span></div>
+    <div class="menu-item"><div><span class="name">Cheese Enchiladas</span><small>Three enchiladas, red sauce, rice &amp; beans</small></div><span class="price">$11.95</span></div>
+    <div class="menu-item"><div><span class="name">Chips &amp; Guacamole</span><small>Made to order at your table</small></div><span class="price">$8.95</span></div>
+  </div>
+
+  <div class="dishes">
+    <figure><img src="assets/restaurant-tacos.jpg" alt="Plate of tacos al pastor"><figcaption>Tacos al Pastor — $4.50, our most loved taco.</figcaption></figure>
+    <figure><img src="assets/restaurant-interior.jpg" alt="Casa Verde dining room"><figcaption>Our dining room — family tables, cantina warmth.</figcaption></figure>
+  </div>
+
+  <h2 id="happy-hour">Happy hour</h2>
+  <div class="happy">
+    <h3>Weekdays, 3–6 PM</h3>
+    <p><span class="deal">$5 house margaritas &middot; $3 Mexican beers &middot; Half-price queso</span></p>
+    <p>Every weekday afternoon at the cantina bar and on the patio. Come as you are — no reservation needed for the bar.</p>
+  </div>
+  <img class="wide-img" src="assets/restaurant-margaritas.jpg" alt="Margaritas on the bar during happy hour">
+  <p style="color:#7a6a52; font-family: Arial, sans-serif; font-size: 0.92em;">House margaritas, $5 during happy hour — classic lime or strawberry.</p>
+
+  <h2 id="gift-cards">Gift cards</h2>
+  <div class="gift">
+    <h3>Give a gift, get a bonus</h3>
+    <p>Buy a $50 gift card, get a $10 bonus card. Buy $100, get a $20 bonus card. Gift cards never expire.</p>
+    <p>Call us to order one, or pick one up at the restaurant.</p>
+    <a class="btn" href="tel:+15550148870">Call (555) 014-8870</a>
+  </div>
+
+  <h2 id="reservations">Reservations</h2>
+  <p>Want to skip the wait? Reserve a table for your party — call us and we&rsquo;ll have it ready. Parties of 8 or more, please call at least a day ahead.</p>
+  <p><a class="btn btn-green" href="tel:+15550148870">Reserve by phone: (555) 014-8870</a></p>
+  <p style="margin-top: 12px; color: #7a6a52; font-family: Arial, sans-serif; font-size: 0.95em;">Prefer delivery? Find us on your favorite delivery app — search &ldquo;Casa Verde Taqueria&rdquo;.</p>
+
+  <h2>Our story</h2>
+  <p> Casa Verde started in 2012 as a family food stand at the farmers&rsquo; market, with one grill, three taco recipes, and a hand-painted sign. Twelve years later we&rsquo;re still doing it the same way: tortillas pressed every morning, salsas made from scratch, and margaritas squeezed to order. Everything on the menu is a family recipe — and the green sauce is still a secret.</p>
+
+  <div class="cols">
+    <div>
+      <h2 id="visit">Visit us</h2>
+      <p>1234 Main Street<br>College Station, TX 77840<br>
+      Phone / text: <a href="tel:+15550148870">(555) 014-8870</a><br>
+      Email: hello@casaverde.example</p>
+      <div class="map-box">
+        <strong>Find us on Main Street</strong><br>
+        Two blocks from the university, next to the post office.<br>
+        Free parking behind the building.
+      </div>
+    </div>
+    <div>
+      <h2>Hours</h2>
+      <table>
+        <tr><th>Day</th><th>Hours</th></tr>
+        <tr><td>Mon – Thu</td><td>11 AM – 9 PM</td></tr>
+        <tr><td>Friday</td><td>11 AM – 10 PM</td></tr>
+        <tr><td>Saturday</td><td>10 AM – 10 PM</td></tr>
+        <tr><td>Sunday</td><td>10 AM – 8 PM</td></tr>
+      </table>
+      <p style="color:#7a6a52; margin-top:10px; font-family: Arial, sans-serif; font-size: 0.92em;">Kitchen closes 30 minutes before closing time. Happy hour weekdays 3–6 PM.</p>
+    </div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2026 Casa Verde Taqueria &amp; Cantina — demo website. <a href="../index.html">Back to portfolio</a></p>
+</footer>
+</body>
+</html>
