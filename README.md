@@ -3,9 +3,8 @@
 Static portfolio site for offering website services to small US businesses.
 Plain HTML/CSS/JS, no framework, no build step, mobile-friendly.
 
-## Status: DRAFT — DO NOT PUBLISH YET
-Prepared 22 Nov 2026. Publishing (GitHub Pages) and any outreach wait for Firt's GO.
-Prices in the site and in PRICING.md are DRAFT — Firt's approval needed before they are quoted to anyone.
+## Status: LIVE
+Published 22 Nov 2026 at https://intemu2.github.io/portfolio/ (repo https://github.com/intemu2/portfolio). Prices in the site and in PRICING.md are as approved by Firt.
 
 ## Files
 - `index.html` — main portfolio page (services, example websites, process, pricing, FAQ, contact)
@@ -15,9 +14,10 @@ Prices in the site and in PRICING.md are DRAFT — Firt's approval needed before
 - `samples/sample-vintage.html` — example vintage &amp; antiques website (fictional "The Copper Kettle": warm retro design, item gallery with prices, hours, location)
 - `samples/sample-grooming.html` — example dog grooming website (fictional "Happy Paws Grooming": bright friendly design, grooming packages &amp; prices, groomer profiles, booking)
 - `samples/sample-foodtruck.html` — example BBQ food truck website (fictional "Smoke &amp; Wheels BBQ": bold street design, menu board, day-by-day location schedule)
+- `samples/sample-restaurant.html` — example Tex-Mex restaurant website (fictional "Casa Verde Taqueria &amp; Cantina": BJ's-style — promo banner, seasonal menu hero, menu with photos, happy hour, gift card, reservations)
 - `PRICING.md` — draft price list with rationale (entry-level $25 / $50 / $75)
 
-Note (22 Nov 2026, Firt's decision): the old "Selected work" section was removed — no real past projects are shown. The portfolio now shows 4 example websites instead. Per Firt's feedback the first 3 examples (diner, barbershop, café) were replaced with 4 more varied, less common business types, each with a different design. All example businesses are fictional with generic names; no real business names or brands are used.
+Note (22 Nov 2026, Firt's decision): the old "Selected work" section was removed — no real past projects are shown. The portfolio now shows 5 example websites instead. Per Firt's feedback the first 3 examples (diner, barbershop, café) were replaced with 4 more varied, less common business types, each with a different design, and a 5th example (Tex-Mex restaurant, BJ's-style) was added 22 Nov 2026. All example businesses are fictional with generic names; no real business names or brands are used.
 
 ## Preview locally
 ```bash
